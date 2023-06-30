@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.field{
+  margin: 0 auto;
+  width: 300px;
+  height: 600px;
+  border: solid 1px black;
+}
+
+.rules{
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+}
+
+.speed{
+  align-self: center;
+}
+
+
+input[type=range] {
+  display: none;
+  transform: translateY(3px);
+}
+
+.reversed-range {
+  direction: rtl;
+  transform: scaleX(-1);
+}
